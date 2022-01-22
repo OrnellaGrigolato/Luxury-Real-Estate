@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header head">
+            <nav class="nav navbar">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Logo de Bienes Raices">
+                </a>
+                <div class="enlaces">
+                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Anuncios.html">Anuncios</a>
+                    <a href="Blog.html">Blog</a>
+                    <a href="Contacto.html">Contacto</a>
+                </div>
+            </nav>
+        </div>
+
+        <main class="casacontainer contactcontainer">
+            <h1>Contacto</h1>
+            <img src="/img/destacada3.jpg" alt="Piscina">
+            <h2>Llena el formulario de contacto</h2>
+            <form action="" autocomplete="off" class="contactform">
+                <FIeldset>
+                    <legend>Información Personal</legend>
+                    <label for="name">Nombre:</label>
+                    <input id="name" type="text" placeholder="Tu Nombre" required >
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Tu Email" required>
+                    <label for="Teléfono">Teléfono:</label>
+                    <input id="Teléfono" type="tel" placeholder="Tu Teléfono" required > 
+                    <label for="Mensaje">Mensaje:</label>
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" required></textarea>
+                </FIeldset>
+                <FIeldset>
+                    <legend>Información Sobre la Propiedad</legend>
+                    <label for="Objetivo">Objetivo:</label>
+                    <select name="Objetivo" id="Objetivo" required>
+                        <option value="Seleccione" disabled selected>--Seleccione--</option>
+                        <option value="Vender">Vender</option>
+                        <option value="Comprar">Comprar</option>
+                        <option value="Alquilar">Alquilar</option>
+                    </select>
+                    <label for="Presupuesto">Presupuesto:</label>
+                    <input id="Presupuesto" type="number" placeholder="Tu Presupuesto" required min="1000000">
+                    <input type="submit">
+                </FIeldset>
+
+            </form>
+        </main>
+   
+        <footer class="footerpaganuncios"> 
+            <div class="enlacesfooter">
+                <div>                    
+                    <a href="Anuncios.html">Anuncios</a>
+                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Contacto.html">Contacto</a>
+                    <a href="Blog.html">Blog</a>
+                </div>
+                <p>Todos los derechos Reservados &copy;</p>              
+            </div>
+        </footer> <!--FOOTER-->
+    </div>
+</body>
+</html>
