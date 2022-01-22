@@ -238,7 +238,7 @@ li>p {
 /**CONTACTO**/
 
 .contenedorcontacto {
-    background-image: url(/img/encuentra.jpg);
+    background: url(./img/encuentra.jpg);
     height: 28vw;
     background-position: center;
     background-size: cover;
@@ -415,12 +415,12 @@ footer {
 .textonosotros {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 70vh;
-    column-gap: 1rem;
+    column-gap: 5rem;
+    align-items: center;
 }
 
 .textonosotros>img {
-    max-height: 100%;
+    width: 100%;
 }
 
 @supports(object-fit: cover) {
@@ -440,10 +440,6 @@ footer {
 .textonosotros div p {
     font-size: 1.3rem;
     line-height: 2rem;
-}
-
-.textonosotros div {
-    margin-top: 3rem;
 }
 
 
