@@ -393,6 +393,7 @@ footer {
     width: 80%;
     margin: 0 auto;
     height: 8rem;
+    padding-top: 0;
 }
 
 .head {
@@ -460,7 +461,6 @@ footer {
 
 .casacontainer>img {
     width: 100%;
-    height: 85vh;
 }
 
 .casacontainer>div {
@@ -554,13 +554,6 @@ footer {
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 992px) {
-    .header,
-    .header-img {
-        height: 70vh;
-    }
-}
-
 @media screen and (max-width: 769px) {
     /*nosotros*/
     .container-items {
@@ -570,6 +563,9 @@ footer {
         max-width: 90%;
         margin: 0 auto 4vw;
         font-size: 1.4vw;
+    }
+    .textonosotros {
+        display: block;
     }
     /*anuncios*/
     .sintitulo {
