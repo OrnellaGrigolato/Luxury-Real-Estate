@@ -16,23 +16,23 @@ html {
 }
 
 h1 {
-    font-size: 3.3vw;
+    font-size: 3.3rem;
 }
 
 h2 {
-    font-size: 2.8vw;
+    font-size: 2.8rem;
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 h4 {
-    font-size: 1.7vw;
+    font-size: 1.7rem;
 }
 
 p {
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 
@@ -82,6 +82,10 @@ p {
     font-size: 1.2vw;
 }
 
+.enlaces-celular {
+    display: none;
+}
+
 .enlaces>a:last-child {
     margin-right: 0rem;
 }
@@ -119,8 +123,7 @@ header>h1 {
 }
 
 .item>img {
-    width: 12vw;
-    height: 12vh;
+    height: 10vh;
 }
 
 
@@ -165,7 +168,6 @@ header>h1 {
 
 .textoanuncios>h3 {
     font-weight: 400;
-    font-size: 2vw;
 }
 
 .textoanuncios>ul>li>img {
@@ -173,13 +175,13 @@ header>h1 {
 }
 
 .descripcion {
-    font-size: 1vw;
+    font-size: 1rem;
     line-height: 2.8rem;
 }
 
 .precio {
     color: #92c04f;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
@@ -202,7 +204,7 @@ li {
 li>p {
     display: inline;
     margin-left: 1vw;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -609,30 +611,27 @@ footer {
     }
     /* nosotros */
     .item>p {
-        font-size: 2.2vw;
+        font-size: 1.4rem;
         max-width: 100%;
     }
     .titulo-nosotros {
-        font-size: 4.3vw;
+        font-size: 4rem;
     }
     .item>h3 {
-        font-size: 3.3vw;
+        font-size: 2rem;
     }
     /* anuncios */
     .sintitulo {
         max-width: 90%;
     }
-    .textoanuncios>h3 {
-        font-size: 3.7vw;
-    }
     .descripcion {
-        font-size: 2.5vw;
+        font-size: 1.4rem;
     }
     .precio {
         font-size: 2.8vw;
     }
     .anuncios>h2 {
-        font-size: 4.3vw;
+        font-size: 4rem;
     }
     .textoanuncios>ul>li>img {
         width: 6.5vw;
