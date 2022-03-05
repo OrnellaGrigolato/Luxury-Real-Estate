@@ -476,7 +476,7 @@ footer {
 }
 
 .casacontainer>p {
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
     font-size: 1.3rem;
     line-height: 2rem;
@@ -528,13 +528,14 @@ footer {
 /*Contacto*/
 
 .contactform {
-    max-width: 50%;
+    max-width: 80%;
     margin: 2rem auto;
 }
 
 .contactcontainer>h2 {
+    max-width: 80%;
     text-align: center;
-    margin: 3rem 0;
+    margin: 3rem auto;
     font-weight: 400;
     font-size: 2.7rem;
 }
@@ -672,6 +673,10 @@ footer {
         width: 15vw;
     }
     /* nosotros */
+    /* detalles casa */
+    .casacontainer>div {
+        max-width: 80%;
+    }
     /* blog */
     .testimonio {
         max-width: 70%;
