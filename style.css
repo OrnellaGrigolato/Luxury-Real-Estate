@@ -43,7 +43,6 @@ p {
     display: flex;
     justify-content: center;
     background-position: center;
-    height: 100vh;
     max-width: 100vw;
     background-color: #cccccc;
     /* Used if the image is unavailable */
@@ -79,7 +78,7 @@ p {
     margin-right: 2rem;
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 1.4rem;
 }
 
 .enlaces-celular {
@@ -91,10 +90,10 @@ p {
 }
 
 header>h1 {
-    width: 37vw;
-    line-height: 5.4vw;
+    width: 47rem;
+    line-height: 5rem;
     font-weight: 700;
-    font-size: 2.5vw;
+    font-size: 3rem;
 }
 
 
@@ -299,13 +298,13 @@ article>div>img {
 }
 
 article>div>h2 {
-    font-size: 2vw;
+    font-size: 2.5rem;
     margin: 0;
 }
 
 article>div>h2::after {
     content: "________________";
-    margin-top: -1.5vw;
+    margin-top: -1.5rem;
     color: #71b11f;
     display: block;
 }
@@ -315,11 +314,11 @@ span {
 }
 
 article>div>p:first-of-type {
-    margin-top: 1vw;
+    margin-top: 1rem;
 }
 
 article>div>p {
-    font-size: 1.1vw;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -364,7 +363,7 @@ article>div>p {
 
 footer {
     background-color: #323232;
-    height: 5vw;
+    height: 3rem;
 }
 
 .enlacesfooter {
@@ -374,6 +373,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.enlacesfooter>div {
+    display: flex;
 }
 
 .enlacesfooter>div>a {
@@ -493,6 +496,25 @@ footer {
     font-size: 3rem;
     text-align: center;
     margin: 3rem 0;
+}
+
+@media screen and (max-width: 769px) {
+    article {
+        display: block;
+    }
+    article>div>img {
+        height: 100%;
+        width: 100%;
+    }
+    article>div>h2 {
+        margin-top: 1rem;
+    }
+    article>div>p:last-child {
+        margin-bottom: 4rem;
+    }
+    .containerpagblog {
+        max-width: 90%;
+    }
 }
 
 
